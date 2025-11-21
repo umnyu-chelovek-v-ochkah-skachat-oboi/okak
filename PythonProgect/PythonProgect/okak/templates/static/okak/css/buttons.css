@@ -1,0 +1,22 @@
+.big-button {
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(196, 18, 18);
+    background: linear-gradient(45deg, #2000f3, #12016e);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.big-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.35);
+}
+
+.big-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+}
